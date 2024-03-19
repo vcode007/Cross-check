@@ -1,0 +1,88 @@
+html{
+    background:url("./3334896.jpg") no-repeat;
+    background-size: cover;
+}
+h1{
+    color: rgb(180, 204, 255);
+   
+}
+span{
+    color:rgb(122, 221, 156);
+    
+}
+h1,span{
+    font-size: 50;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.appname svg{
+    height: 4.3rem;
+    width: 3rem;
+   padding-left:6;
+   fill: rgb(176, 222, 253);
+}
+.appname{
+    display: flex;
+   justify-content:center;
+   align-items:center;
+   margin-top: 60px;
+}
+h1{
+    margin: 0;
+}
+.search{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 40px;
+    background-color: aliceblue;
+    padding-left: 15px;
+    margin-top: 50px;   
+}
+.searchip{
+    font-size: 16px;
+    font-family: 'Lexend',sans-serif;
+    color: rgb(54, 54, 54);
+    outline: none;
+    border: none;
+    background: none;
+    padding: 5px;
+    padding-left: 15px;
+    width: 500px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: center; 
+    height: 400px;;
+}
+ul{
+    list-style: none;
+}
+.b{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 0;
+}
+.bli{
+    display: grid;
+    grid-template-rows:1fr 1 fr 1 fr ;
+    font-family: "Gill Sans", sans-serif;
+    color: azure;
+    height: 40px;
+    font-size: 15;
+    place-items: center;
+    width: 150;
+    border-radius: 30px;
+    background-color: rgba(240, 112, 176, 0.614);
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
